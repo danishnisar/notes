@@ -30,6 +30,7 @@ export async function action({request})
     await setStoredNotes(updateNotes);
 
     return redirect('/note');
+    
 
 
 
